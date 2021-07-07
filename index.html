@@ -10,6 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">    
     <link rel="stylesheet" href="./css/styles.css">
+    
 </head> 
 <body>
     <header class="page-header">
@@ -35,7 +36,7 @@
     
     <div class="hero">
         <h1 class="hero-title"><span> Эффективные решения</span><span> для вашего бизнеса</span></h1>
-        <button class="button primary">Заказать услугу</button>
+        <button class="button primary" data-modal-open>Заказать услугу</button>]
     </div>
     
 <!-- features -->    
@@ -83,9 +84,9 @@
     <div class="work">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="container list">
-            <li class="item"><img src="./images/img-1.jpg" alt="img-1" width="370" /></li>
-            <li class="item"><img src="./images/img-2.jpg" alt="img-2" width="370" /></li>
-            <li class="item"><img src="./images/img-3.jpg" alt="img-3" width="370" /></li>
+            <li class="item"><img src="./images/img-1.jpg" alt="img-1" width="370" /><P class="work-type">Десктопные приложения</P> </li>
+            <li class="item"><img src="./images/img-2.jpg" alt="img-2" width="370" /> <p class="work-type">Мобильные приложения</p></li>
+            <li class="item"><img src="./images/img-3.jpg" alt="img-3" width="370" /><p class="work-type">Дизайнерские решения</p></li>
         </ul>
     </div>
     </section>
@@ -304,6 +305,15 @@
                 </div>
             </section>
     
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close-bnt" data-modal-close >
+                <svg class="icon" width="30px" height="30px">
+                    <use href='./images/icons.svg#icon-close-btn'></use>
+                </svg>
+            </button>
+        </div>
+    </div>
     
     <footer class="page-footer"> 
         <section class="container list">
@@ -356,8 +366,9 @@
         </li>
         </ul>
         </section>
-        
+       
     </footer>
     
+<script src="./js/modal.js"></script>
 </body>
 </html>
