@@ -795,18 +795,12 @@ img {
   margin-bottom: 24px;
 }
 
-.contact-form-checkbox {
-  display: flex;
-}
-
 .policy-text {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 1.17;
   color: #8e8f99;
-  position: relative;
-  margin-left: 24px;
   cursor: pointer;
 }
 
@@ -816,14 +810,12 @@ img {
 }
 
 .icon-check {
-  position: absolute;
-  top: 0;
-  left: -24px;
   width: 16px;
   height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
   border-radius: 2px;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
