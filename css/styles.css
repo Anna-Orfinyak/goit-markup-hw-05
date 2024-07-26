@@ -803,7 +803,12 @@ img {
   cursor: pointer;
 }
 
-.policy-text a {
+/* .policy-text a {
+  text-decoration: underline; 
+  color: #4d5ae5;
+} */
+
+.privacy-policy {
   text-decoration: underline; 
   color: #4d5ae5;
 }
