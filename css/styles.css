@@ -791,6 +791,14 @@ img {
   overflow: hidden;
 }
 
+.form-checkbox {
+  margin-bottom: 24px;
+}
+
+.contact-form-checkbox {
+  display: flex;
+}
+
 .policy-text {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -798,25 +806,13 @@ img {
   line-height: 1.17;
   color: #8e8f99;
   position: relative;
-  /* display: flex; */
   margin-left: 24px;
   cursor: pointer;
 }
 
-/* .policy-text a {
-  text-decoration: underline; 
-  color: #4d5ae5;
-} */
-
 .privacy-policy {
   text-decoration: underline; 
   color: #4d5ae5;
-}
-
-.form-checkbox {
-  /* display: inline-flex; */
-  align-items: start;
-  margin-bottom: 24px;
 }
 
 .icon-check {
