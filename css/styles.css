@@ -531,12 +531,9 @@ img {
 }
 
 .subscribe {
-  /* display: block; */
   margin-left: auto;
   width: 453px;
-height: 80px;
- 
-
+  height: 80px;
 }
 
 .subscribe-title {
@@ -548,13 +545,11 @@ height: 80px;
   margin-bottom: 16px;
 }
 
-.subscribe-field {
+.subscribe-form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 24px; */
-  /* margin-left: auto;
-  margin-right: auto; */
+  gap: 24px;
 }
 
 .subscribe-input {
@@ -570,16 +565,6 @@ height: 80px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  /* margin-right: 24px; */
-}
-
-.subscribe-email{
-  /* gap: 24px; */
-}
-
-.subscribe-form {
-  display: flex;
-  gap: 24px;
 }
 
 .subscribe-input:focus {
@@ -587,7 +572,9 @@ height: 80px;
 }
 
 .subscribe-input::placeholder {
-  font: 400 12px / 2 "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
