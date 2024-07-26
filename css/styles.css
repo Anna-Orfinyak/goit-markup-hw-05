@@ -790,6 +790,8 @@ img {
   font: 400 12px / 1.33333 "Roboto", sans-serif;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
   color: #4d5ae5;
 }
 
